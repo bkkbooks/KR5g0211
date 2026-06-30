@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0211/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0211/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清黃庭五臟六府真人玉軸經
+  date: '2015-08-29 03:00:11.696881'
+  source:
+    repository: kanripo
+    path: KR5g0211
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0211_000-ZTDZ.yaml, hash: 'sha256:c89c79b85689aca95237a4b4b14b2aea65590a7043f05e9759c34d048d2f2a84'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0211_000-ZTDZ.markers.yaml, hash: 'sha256:a89f68e6c5ff11c7c33095e60bb110ab3ea9566251f743207d9708a8249cb7b1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0211_SJB_000-340289a
+    span:
+    - body
+    - 0
+    - 2948
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c25dbf749d562c17abfcfe3909bb21bb4d6088bd6d0d2263b751ac1f8422cca8
